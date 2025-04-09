@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title style="color: blue;">IG Developer | Irfan's Avengers Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to bottom, #000000, #001f33);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      background: #000;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 2px solid #00ccff;
+      box-shadow: 0 0 15px #00ccff88;
+    }
+    header h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 4rem;
+      text-transform: uppercase;
+      background: #ff0000;
+      color: white;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #ff0000aa;
+      letter-spacing: 3px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 0 20px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #00ccff;
+      text-shadow: 0 0 10px #00ccff;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #00ccff;
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ccff;
+      border-bottom: 2px solid #00ccff;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .skills span {
+      display: inline-block;
+      background: rgba(0, 204, 255, 0.1);
+      color: #00ccff;
+      padding: 12px 16px;
+      margin: 6px;
+      border-radius: 10px;
+      border: 2px solid #00ccff;
+      box-shadow: 0 0 8px #00ccff55;
+      transition: 0.3s;
+      transform: perspective(300px) rotateX(5deg);
+    }
+    .skills span:hover {
+      background: #00ccff;
+      color: #000;
+      transform: scale(1.1) rotateY(5deg);
+      cursor: pointer;
+    }
+    .project {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      padding: 25px;
+      margin: 30px 0;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 204, 255, 0.3);
+      border: 1px solid #00ccff50;
+      transition: transform 0.3s;
+    }
+    .project:hover {
+      transform: scale(1.03);
+    }
+    .project h3 {
+      color: #00ccff;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      text-shadow: 0 0 5px #00ccff;
+    }
+    .project p {
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+    .project a {
+      color: #00ccff;
+      text-decoration: none;
+      margin-right: 15px;
+    }
+    .project a:hover {
+      text-shadow: 0 0 5px #00ccff;
+    }
+    .contact a {
+      display: block;
+      margin: 12px 0;
+      color: #00ccff;
+      text-decoration: none;
+      font-size: 1.1rem;
+    }
+    .contact a:hover {
+      text-shadow: 0 0 5px #00ccff;
+    }
+    #avenger-model h2 {
+      margin-bottom: 20px;
+      font-size: 2.2rem;
+      color: #00ccff;
+      text-shadow: 0 0 8px #00ccff;
+      text-align: center;
+    }
+    #avenger-model iframe {
+      border-radius: 15px;
+      box-shadow: 0 0 30px #00ccff66;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #000;
+      color: #fff;
+      border-top: 2px solid #00ccff;
+      box-shadow: 0 -5px 15px #00ccff33;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IG DEVELOPER</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#avenger-model">3D Model</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hey, I'm <strong>Irfan</strong> – a passionate web developer who builds modern and responsive websites. I help brands and businesses create bold online experiences. Let’s create something heroic!</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>HTML5</span>
+      <span>CSS3</span>
+      <span>JavaScript</span>
+      <span>Responsive Design</span>
+      <span>Bootstrap</span>
+      <span>React.js</span>
+      <span>Git & GitHub</span>
+      <span>Figma to Code</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Amazon Clone</h3>
+      <p>A responsive Amazon homepage clone with navigation, product cards, and search bar. Built with HTML, CSS, and JS.</p>
+      <a href="#">GitHub Repo</a> | <a href="#">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Netflix Landing Page</h3>
+      <p>A cinematic Netflix-style landing page with animations and mobile responsiveness.</p>
+      <a href="#">GitHub Repo</a> | <a href="#">Live Demo</a>
+    </div>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>This very portfolio – showcasing skills, projects, and contact info in a clean, Marvel-themed layout.</p>
+      <a href="#">GitHub Repo</a> | <a href="#">Live Demo</a>
+    </div>
+  </section>
+
+  <section id="avenger-model">
+    <h2>Iron Man 3D Model</h2>
+    <div style="position:relative; padding-top:56.25%;">
+      <iframe title="Iron Man 3D Model" frameborder="0" allowfullscreen
+        mozallowfullscreen="true" webkitallowfullscreen="true"
+        allow="autoplay; fullscreen; xr-spatial-tracking" 
+        xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share
+        src="https://sketchfab.com/models/23fcf71769cf4b6bb1892d98e5b01a82/embed"
+        style="position:absolute; top:0; left:0; width:100%; height:100%;">
+      </iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <a href="mailto:devilmene03@gmail.com">Email: devilmene03@gmail.com</a>
+      <a href="https://instagram.com/ig_irfan____09" target="_blank">Instagram: @ig_irfan____09</a>
+      <a href="tel:+918276094371">Phone: +91 8276094371</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 IG Developer | Designed by Irfan</p>
+  </footer>
+</body>
+</html>
